@@ -19,9 +19,11 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 import Argon from "./plugins/argon-kit";
+import MarqueeText from 'vue-marquee-text-component'
 import './registerServiceWorker'
 
 Vue.config.productionTip = false;
+Vue.component('marquee-text', MarqueeText)
 Vue.use(Argon);
 new Vue({
   router,

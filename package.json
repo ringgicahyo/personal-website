@@ -11,10 +11,12 @@
     "bootstrap-vue": "^2.0.4",
     "flatpickr": "^4.5.1",
     "nouislider": "^11.1.0",
+    "particles.js": "^2.0.0",
     "register-service-worker": "^1.5.2",
     "vue": "^2.6.6",
     "vue-flatpickr-component": "^8.1.1",
     "vue-lazyload": "^1.2.6",
+    "vue-marquee-text-component": "^1.1.1",
     "vue-router": "^3.0.2",
     "vue2-transitions": "^0.2.3"
   },
@@ -25,6 +27,7 @@
     "@vue/cli-service": "^3.4.0",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
+    "vue-particles": "^1.0.9",
     "vue-template-compiler": "^2.6.6"
   }
 }

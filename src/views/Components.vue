@@ -1,7 +1,7 @@
 <template>
     <div>
         <hero></hero>
-        <basic-elements></basic-elements>
+        <!-- <basic-elements></basic-elements>
         <inputs></inputs>
         <custom-controls></custom-controls>
         <navigation></navigation>
@@ -9,7 +9,7 @@
         <icons></icons>
         <examples></examples>
         <download-section></download-section>
-        <carousel></carousel>
+        <carousel></carousel> -->
     </div>
 </template>
 <script>
@@ -27,16 +27,16 @@ import DownloadSection from "./components/DownloadSection";
 export default {
   name: "components",
   components: {
-    Hero,
-    BasicElements,
-    Inputs,
-    CustomControls,
-    Navigation,
-    JavascriptComponents,
-    Carousel,
-    Icons,
-    Examples,
-    DownloadSection
+    Hero
+    // BasicElements,
+    // Inputs,
+    // CustomControls,
+    // Navigation,
+    // JavascriptComponents,
+    // Carousel,
+    // Icons,
+    // Examples,
+    // DownloadSection
   }
 };
 </script>
